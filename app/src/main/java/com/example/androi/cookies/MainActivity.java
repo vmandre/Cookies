@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         status.setText("I'm so full");
         cookieImage.setImageResource(R.drawable.after_cookie);
 
-        Log.i("PASSOU POR AQUI", "PASSOU POR AQUI");
+        Log.i(this.getClass().getName(), "PASSOU POR AQUI");
+
     }
 }
